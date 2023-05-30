@@ -6,7 +6,7 @@ session_start();
 //Connecting to the database
 
 try {
-    $con = new PDO('mysql: host=localhost; dbname=id19512279_db', 'id19512279_dbu', '(e8jT%ViCa^r<p=~');
+    $con = new PDO('mysql: host=localhost; dbname=db', 'dbu', 'dbp');
 }
 catch (PDOException $e){
 die("Error : ".$e->getMessage()."<br/>");
